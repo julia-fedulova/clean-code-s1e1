@@ -4,16 +4,16 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header__img {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header__img img {
+.header__img {
   width: 100%;
 }
-.header__img .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 .header__img { text-align: center;
 }
 }
-.centered-main-page-element {
+.main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-section__wrapper {
   display: flex;
 }
 ul {
